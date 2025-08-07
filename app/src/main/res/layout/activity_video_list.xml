@@ -1,20 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@android:color/black"
-    android:padding="16dp">
+    android:background="@android:color/black">
 
-    <ListView
-        android:id="@+id/videoListView"
+    <!-- Top header row, like on the website -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:divider="@android:color/white"
-        android:dividerHeight="1dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:padding="8dp" />
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@android:color/black"
+        android:gravity="center_vertical">
 
+        <!-- Back arrow (hidden at first) -->
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_back_arrow"
+            android:contentDescription="Back to home"
+            android:visibility="gone" />
+
+        <!-- Logo badge (shows normally) -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:contentDescription="RTLVod Logo" />
+
+        <!-- Welcome text sign (changes to "Search Results" when searching) -->
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rugby Videos"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:paddingStart="8dp" />
+
+        <!-- Search button (magnifying glass door) -->
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#FF0000"
+            android:layout_marginStart="8dp" />
+
+        <!-- Logout button, like bye bye door -->
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#FF0000"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <!-- Big shelf holder (same as before) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/categoryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+    <!-- Red like rugby -->
+    <!-- Use your arrow pic, or change to Button if no pic -->
 </LinearLayout>

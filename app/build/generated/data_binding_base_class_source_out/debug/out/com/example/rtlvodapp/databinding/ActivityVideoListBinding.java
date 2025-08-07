@@ -4,10 +4,13 @@ package com.example.rtlvodapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ListView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.rtlvodapp.R;
@@ -20,12 +23,33 @@ public final class ActivityVideoListBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final ListView videoListView;
+  public final ImageView backArrow;
 
-  private ActivityVideoListBinding(@NonNull LinearLayout rootView,
-      @NonNull ListView videoListView) {
+  @NonNull
+  public final RecyclerView categoryRecyclerView;
+
+  @NonNull
+  public final ImageView logoImage;
+
+  @NonNull
+  public final Button logoutButton;
+
+  @NonNull
+  public final Button searchButton;
+
+  @NonNull
+  public final TextView welcomeText;
+
+  private ActivityVideoListBinding(@NonNull LinearLayout rootView, @NonNull ImageView backArrow,
+      @NonNull RecyclerView categoryRecyclerView, @NonNull ImageView logoImage,
+      @NonNull Button logoutButton, @NonNull Button searchButton, @NonNull TextView welcomeText) {
     this.rootView = rootView;
-    this.videoListView = videoListView;
+    this.backArrow = backArrow;
+    this.categoryRecyclerView = categoryRecyclerView;
+    this.logoImage = logoImage;
+    this.logoutButton = logoutButton;
+    this.searchButton = searchButton;
+    this.welcomeText = welcomeText;
   }
 
   @Override
@@ -55,13 +79,44 @@ public final class ActivityVideoListBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.videoListView;
-      ListView videoListView = ViewBindings.findChildViewById(rootView, id);
-      if (videoListView == null) {
+      id = R.id.backArrow;
+      ImageView backArrow = ViewBindings.findChildViewById(rootView, id);
+      if (backArrow == null) {
         break missingId;
       }
 
-      return new ActivityVideoListBinding((LinearLayout) rootView, videoListView);
+      id = R.id.categoryRecyclerView;
+      RecyclerView categoryRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (categoryRecyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.logoImage;
+      ImageView logoImage = ViewBindings.findChildViewById(rootView, id);
+      if (logoImage == null) {
+        break missingId;
+      }
+
+      id = R.id.logoutButton;
+      Button logoutButton = ViewBindings.findChildViewById(rootView, id);
+      if (logoutButton == null) {
+        break missingId;
+      }
+
+      id = R.id.searchButton;
+      Button searchButton = ViewBindings.findChildViewById(rootView, id);
+      if (searchButton == null) {
+        break missingId;
+      }
+
+      id = R.id.welcomeText;
+      TextView welcomeText = ViewBindings.findChildViewById(rootView, id);
+      if (welcomeText == null) {
+        break missingId;
+      }
+
+      return new ActivityVideoListBinding((LinearLayout) rootView, backArrow, categoryRecyclerView,
+          logoImage, logoutButton, searchButton, welcomeText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

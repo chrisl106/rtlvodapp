@@ -1,7 +1,6 @@
 package com.example.rtlvodapp.model
 
 data class LoginResponse(
-    val success: Boolean,
-    val token: String?,
-    val message: String?
+    val token: String? = null,  // Fixed: Token if success, null if fail
+    val message: String? = null  // Fixed: Message if fail, null if success
 )

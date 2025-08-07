@@ -13,5 +13,4 @@
         app:use_controller="true"
         app:resize_mode="fit"
         app:use_artwork="false" />
-
 </RelativeLayout>

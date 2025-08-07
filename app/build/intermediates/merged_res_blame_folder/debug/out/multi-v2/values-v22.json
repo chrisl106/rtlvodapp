@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.rtlvodapp-mergeDebugResources-37:/values-v22/values-v22.xml",
+            "outputFile": "com.example.rtlvodapp-mergeDebugResources-39:/values-v22/values-v22.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chris\\.gradle\\caches\\transforms-3\\0309b5405b897a1030bfff90bd8e5662\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
@@ -12,6 +12,24 @@
                         "endLines": "2,3,8,13",
                         "endColumns": "74,86,12,12",
                         "endOffsets": "125,212,482,764"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "161,236,323,593",
+                        "endLines": "4,5,10,15",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "231,318,588,870"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Chris\\.gradle\\caches\\transforms-3\\6949da7a72399117cc99435ef6ffa976\\transformed\\leanback-1.0.0\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,107",
+                        "endColumns": "51,53",
+                        "endOffsets": "102,156"
                     }
                 }
             ]

@@ -1,82 +1,106 @@
 [
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.rtlvodapp-merged_res-41:/layout_item_video.xml.flat",
+        "source": "com.example.rtlvodapp-main-43:/layout/item_video.xml"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.rtlvodapp-merged_res-41:/layout_activity_category.xml.flat",
+        "source": "com.example.rtlvodapp-main-43:/layout/activity_category.xml"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.rtlvodapp-merged_res-41:/drawable_logo.png.flat",
+        "source": "com.example.rtlvodapp-main-43:/drawable/logo.png"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.rtlvodapp-merged_res-41:/layout_dialog_search.xml.flat",
+        "source": "com.example.rtlvodapp-main-43:/layout/dialog_search.xml"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.rtlvodapp-pngs-35:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "com.example.rtlvodapp-merged_res-41:/drawable_tv_banner.png.flat",
+        "source": "com.example.rtlvodapp-main-43:/drawable/tv_banner.png"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.rtlvodapp-merged_res-41:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.rtlvodapp-main-43:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.rtlvodapp-main-41:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/drawable_logo.png.flat",
-        "source": "com.example.rtlvodapp-main-41:/drawable/logo.png"
+        "merged": "com.example.rtlvodapp-merged_res-41:/layout_item_category.xml.flat",
+        "source": "com.example.rtlvodapp-main-43:/layout/item_category.xml"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/layout_activity_video_list.xml.flat",
-        "source": "com.example.rtlvodapp-main-41:/layout/activity_video_list.xml"
+        "merged": "com.example.rtlvodapp-merged_res-41:/layout_activity_main.xml.flat",
+        "source": "com.example.rtlvodapp-main-43:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/layout_activity_main.xml.flat",
-        "source": "com.example.rtlvodapp-main-41:/layout/activity_main.xml"
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.rtlvodapp-merged_res-41:/layout_activity_video_player.xml.flat",
+        "source": "com.example.rtlvodapp-main-43:/layout/activity_video_player.xml"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.rtlvodapp-merged_res-41:/drawable_login_background.png.flat",
+        "source": "com.example.rtlvodapp-main-43:/drawable/login_background.png"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/layout_activity_video_player.xml.flat",
-        "source": "com.example.rtlvodapp-main-41:/layout/activity_video_player.xml"
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/xml_network_security_config.xml.flat",
-        "source": "com.example.rtlvodapp-main-41:/xml/network_security_config.xml"
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/drawable_login_background.png.flat",
-        "source": "com.example.rtlvodapp-main-41:/drawable/login_background.png"
+        "merged": "com.example.rtlvodapp-merged_res-41:/drawable_ic_back_arrow.png.flat",
+        "source": "com.example.rtlvodapp-main-43:/drawable/ic_back_arrow.png"
     },
     {
-        "merged": "com.example.rtlvodapp-merged_res-39:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.rtlvodapp-main-41:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.rtlvodapp-merged_res-41:/xml_network_security_config.xml.flat",
+        "source": "com.example.rtlvodapp-main-43:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.example.rtlvodapp-merged_res-41:/layout_activity_video_list.xml.flat",
+        "source": "com.example.rtlvodapp-main-43:/layout/activity_video_list.xml"
+    },
+    {
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.rtlvodapp-merged_res-41:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.rtlvodapp-pngs-37:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.rtlvodapp-merged_res-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.rtlvodapp-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
     }
 ]

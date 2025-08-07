@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.rtlvodapp-mergeDebugResources-37:/values-v24/values-v24.xml",
+            "outputFile": "com.example.rtlvodapp-mergeDebugResources-39:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chris\\.gradle\\caches\\transforms-3\\4aefefff3a07d4a0f07beaa962704fc8\\transformed\\media-1.6.0\\res\\values-v24\\values-v24.xml",

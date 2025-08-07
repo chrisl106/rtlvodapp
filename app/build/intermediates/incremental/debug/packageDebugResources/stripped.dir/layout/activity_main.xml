@@ -28,7 +28,9 @@
             android:hint="Username"
             android:inputType="text"
             android:padding="12dp"
-            android:background="@android:drawable/editbox_background" />
+            android:background="#FF333333"
+            android:textColor="@android:color/white"
+            android:textColorHint="#FFAAAAAA" />
 
         <EditText
             android:id="@+id/passwordInput"
@@ -38,7 +40,11 @@
             android:hint="Password"
             android:inputType="textPassword"
             android:padding="12dp"
-            android:background="@android:drawable/editbox_background" />
+            android:background="#FF333333"
+            android:textColor="@android:color/white"
+            android:textColorHint="#FFAAAAAA" />
+
+        <!-- Light gray hint so it's visible -->
 
         <Button
             android:id="@+id/loginButton"
@@ -46,6 +52,5 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="Log In" />
-
     </LinearLayout>
 </ScrollView>
